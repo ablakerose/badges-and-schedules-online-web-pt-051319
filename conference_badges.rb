@@ -3,9 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  array_names.each.map do |name|
-
-  end
+  attendees.map {|name| badgemaker(name)}
 end
 
 def assign_rooms(array_names)
