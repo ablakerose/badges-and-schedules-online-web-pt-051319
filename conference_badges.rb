@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   array_names.each.map do |name|
-  
+
   end
 end
 
